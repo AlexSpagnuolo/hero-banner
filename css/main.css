@@ -18,16 +18,19 @@ body {
 
 .banner {
   position: relative;
-  max-height: 500px;
   overflow: hidden;
+  max-height: 500px;
 }
 
 .banner-content {
-  margin: 0;
   position: absolute;
   bottom: 1em;
   left: 50%;
   transform: translateX(-50%);
+  width: 100%;
+  max-width: 50em;
+  margin: 1rem;
+  margin-bottom: -1.5rem;
 }
 
 h2 {
